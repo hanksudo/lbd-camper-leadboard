@@ -1,0 +1,17 @@
+abbr.sorted {
+  cursor: pointer;
+}
+
+.sorted.false:after {
+  content: ' \25b2';
+  font-size: 14px;
+}
+
+.sorted.true:after {
+  content: ' \25bc';
+  font-size: 14px;
+}
+
+.username {
+  line-height: 45px;
+}
